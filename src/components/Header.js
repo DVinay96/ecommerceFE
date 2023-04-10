@@ -51,12 +51,12 @@ const Header = () => {
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link className='d-flex align-items-center gap-10 text-white'>
+                                    <NavLink to='/login' className='d-flex align-items-center gap-10 text-white'>
                                         <img src='productImages/user.svg' alt='user' />
                                         <p className='text-white mb-0'>
-                                            Usuario <br /> Mi Cuenta
+                                            Log In
                                         </p>
-                                    </Link>
+                                    </NavLink>
                                 </div>
                                 <div>
                                     <Link className='d-flex align-items-center gap-10 text-white'>
@@ -96,8 +96,8 @@ const Header = () => {
                                 </div>
                                 <div className='menu-links'>
                                     <div className='d-flex align-items-center gap-15'>
-                                        <NavLink className='text-white' to='/'>Inicio</NavLink>
-                                        <NavLink className='text-white' to='/'>Tienda</NavLink>
+                                        <NavLink className='text-white' to='/home'>Inicio</NavLink>
+                                        <NavLink className='text-white' to='/tienda'>Tienda</NavLink>
                                         <NavLink className='text-white' to='/'>Acerca de</NavLink>
                                         <NavLink className='text-white' to='/contact'>Contacto</NavLink>
                                     </div>

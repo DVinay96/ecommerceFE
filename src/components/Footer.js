@@ -44,13 +44,13 @@ const Footer = () => {
                   <a href='mailto: email@email.com' className='mt-2 d-block mb-2 text-white'>email@email.com</a>
                   <div className='social_icons d-flex align-items-center gap-30 p-2'>
                     <a href='' >
-                      <BsFacebook className='text-white fs-4' />
+                      <BsFacebook className='text-white fs-4' to='' />
                     </a>
                     <a href='' >
-                      <BsInstagram className='text-white fs-4' />
+                      <BsInstagram className='text-white fs-4' to='' />
                     </a>
                     <a href='' >
-                      <BsYoutube className='text-white fs-4' />
+                      <BsYoutube className='text-white fs-4' to='' />
                     </a>
 
                   </div>
